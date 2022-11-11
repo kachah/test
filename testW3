@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <head> 
+        <nav>
+
+        </nav>
+    </head>
+    <section>
+        <H3> PAGE TEST</H3>
+            <table>
+                <tr>
+                    <th>NOM</th>
+                    <th>TEL</th>
+                    <th>PHOTO</th>
+                </tr>
+                
+
+            </table>
+
+
+
+
+    </section>
+
+
+</body>
+</html>

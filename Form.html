@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title> Page Formuliare </title>
+</head>
+<body>
+    <header> <nav> </nav> </header>
+    <main> 
+        <section>
+            <big><h2> Saisir vos données </h2> </big>
+                <form>
+              <p>
+                <label for="fname">Nom *:</label>
+                    <input type="text" required >
+                <label for="lname"> Prenom *:</label>
+                    <input type="text" required>
+                <label for="datalist"> date de naissance:</label>
+                    <input type="date">
+                <label for="sex" name="check"> Sex   :</label>  
+                    <input type="radio" name="check"> M 
+                    <input type="radio" name="check"> F
+                </p>
+                <p><label for="loisir" name="checkloisir" style="border: 2px black;"> loisir :</label>
+                <ul type="none">  
+                    <li> <input type="checkbox" name="checkloisir" required> Natation  </li> 
+                    <li> <input type="checkbox" name="checkloisir"> Football  </li> 
+                    <li> Autre <input type="text" name="checkloisir">  </li> 
+                </ul>  </p>
+
+                <p><label for="Email" name="checkemal"> Mail*  :</label>
+                    <input type="email" name="checkemal" required> </p>
+
+            <p><label for="ADRESSE" name="ADRESSE" > ADRESSE:</label>
+            <textarea cols="15" rows="10"></textarea> </p>
+
+           <p> <label for="Photo" name="Photo"> Photo  :</label>
+                <input type="image" src="/profil.webp" width="100" height="100" name="image"> </p>
+
+           <p> <label for="uploads" name="uploads" > telecharger CIN :</label>
+                <input type="file" name="uploads"  required > </p>
+
+            <p><input type="submit" value="envoyer"> </p>  
+            <br>
+            <p style="color:red;" > <strong> *required </strong> </p>
+            <br>
+
+        </form>
+            </p>
+
+        </section>
+    </main>
+</body>
+</html>
